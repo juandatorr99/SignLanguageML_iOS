@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PDS-aA-tmi">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Main" id="BYZ-38-t0r" customClass="ViewController" customModule="SignLanguageTranslator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="undraw_conversation_h12g.png" translatesAutoresizingMaskIntoConstraints="NO" id="ipA-GL-Bx1">
+                                <rect key="frame" x="0.0" y="190" width="414" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="3Y4-6V-rTf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16C-vQ-94s">
+                                <rect key="frame" x="108" y="642" width="199" height="42"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="Choose Images">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="y4W-o3-jUf" kind="show" id="UHH-fj-6qF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVr-ie-fWW">
+                                <rect key="frame" x="20" y="430" width="374" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="ux7-Sk-mDI"/>
+                                </constraints>
+                                <string key="text">This app lets you translate pictures or live video of sign language, click in "Choose Images" to use the library images or choose "Live Translation. </string>
+                                <fontDescription key="fontDescription" name="SFCompactRounded-Regular" family="SF Compact Rounded" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCR-mA-Fvh">
+                                <rect key="frame" x="108" y="714" width="199" height="42"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="Live Translation">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VRp-hE-Rsd" kind="push" id="xJ8-I6-aTG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="16C-vQ-94s" secondAttribute="trailing" constant="107" id="0kR-MP-px8"/>
+                            <constraint firstItem="jCR-mA-Fvh" firstAttribute="top" secondItem="16C-vQ-94s" secondAttribute="bottom" constant="30" id="2Vl-Ke-HxN"/>
+                            <constraint firstItem="16C-vQ-94s" firstAttribute="top" secondItem="EVr-ie-fWW" secondAttribute="bottom" constant="92" id="4Vw-BG-woD"/>
+                            <constraint firstItem="ipA-GL-Bx1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="4qC-f8-fHF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EVr-ie-fWW" secondAttribute="trailing" constant="20" id="86j-r5-nBc"/>
+                            <constraint firstItem="EVr-ie-fWW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9LV-T0-yA7"/>
+                            <constraint firstItem="ipA-GL-Bx1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Dci-Il-l4v"/>
+                            <constraint firstItem="jCR-mA-Fvh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="LUO-ez-BJO"/>
+                            <constraint firstItem="16C-vQ-94s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="LlV-lR-4ZJ"/>
+                            <constraint firstItem="EVr-ie-fWW" firstAttribute="top" secondItem="ipA-GL-Bx1" secondAttribute="bottom" constant="40" id="fE9-GT-Zv6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jCR-mA-Fvh" secondAttribute="trailing" constant="107" id="piQ-rN-LcK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ipA-GL-Bx1" secondAttribute="trailing" id="sTY-SH-Zre"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jCR-mA-Fvh" secondAttribute="bottom" constant="106" id="yYd-sH-SPK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sign Language" largeTitleDisplayMode="always" id="fEj-LB-TUk"/>
+                    <connections>
+                        <outlet property="buttonChooseImage" destination="16C-vQ-94s" id="ok6-d9-CjN"/>
+                        <outlet property="buttonLiveTranslation" destination="jCR-mA-Fvh" id="RkP-s4-iJ2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953.62318840579712" y="-133.25892857142856"/>
+        </scene>
+        <!--Live View Controller-->
+        <scene sceneID="Agt-7V-0HK">
+            <objects>
+                <viewController id="VRp-hE-Rsd" customClass="LiveViewController" customModule="SignLanguageTranslator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DZU-w0-zp8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="NlT-lf-Zm4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GFd-M0-R8f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XXQ-CZ-23J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2290" y="285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Eve-di-Ldy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PDS-aA-tmi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="A0g-wz-p9R">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" systemColor="linkColor"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FLi-6R-9Qa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nvK-ih-hrt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13.043478260869566" y="-133.25892857142856"/>
+        </scene>
+        <!--Cam View Controller-->
+        <scene sceneID="hhK-xd-QNX">
+            <objects>
+                <viewController id="y4W-o3-jUf" customClass="CamViewController" customModule="SignLanguageTranslator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kif-lt-E0N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4SD-kH-Qsx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jae-Tu-U0k" userLabel="Camera">
+                                <rect key="frame" x="247" y="782" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Hue-wQ-Nut"/>
+                                    <constraint firstAttribute="height" constant="60" id="MS9-ep-1BP"/>
+                                </constraints>
+                                <state key="normal" image="camera">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="takeImageWithCamera:" destination="y4W-o3-jUf" eventType="touchUpInside" id="en9-M2-cAN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhM-HN-asc" userLabel="Library">
+                                <rect key="frame" x="107" y="782" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ccN-qT-l24"/>
+                                    <constraint firstAttribute="width" constant="60" id="yeL-Pq-RKO"/>
+                                </constraints>
+                                <state key="normal" image="picture">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pickImageFromLibrary:" destination="y4W-o3-jUf" eventType="touchUpInside" id="hDQ-Um-ALh"/>
+                                </connections>
+                            </button>
+                            <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vLm-SM-vfG">
+                                <rect key="frame" x="136" y="150" width="142.5" height="37"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="oGL-l8-1E1">
+                                    <rect key="frame" x="0.0" y="0.0" width="142.5" height="37"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Model results" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQM-tE-YvA" userLabel="Model results">
+                                            <rect key="frame" x="20" y="8" width="102.5" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="YQM-tE-YvA" secondAttribute="trailing" constant="20" id="HFi-uW-HZM"/>
+                                        <constraint firstItem="YQM-tE-YvA" firstAttribute="leading" secondItem="oGL-l8-1E1" secondAttribute="leading" constant="20" id="eRT-Yf-09M"/>
+                                        <constraint firstItem="YQM-tE-YvA" firstAttribute="top" secondItem="oGL-l8-1E1" secondAttribute="top" constant="8" id="i88-7d-AEq"/>
+                                        <constraint firstAttribute="bottom" secondItem="YQM-tE-YvA" secondAttribute="bottom" constant="8" id="rCl-dT-kdD"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BDM-Nq-IkP"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BDM-Nq-IkP" firstAttribute="top" secondItem="vLm-SM-vfG" secondAttribute="top" constant="-10" id="MIK-tA-UXu"/>
+                            <constraint firstItem="vLm-SM-vfG" firstAttribute="centerX" secondItem="Kif-lt-E0N" secondAttribute="centerX" id="OHK-xX-wQx"/>
+                            <constraint firstItem="Jae-Tu-U0k" firstAttribute="centerX" secondItem="Kif-lt-E0N" secondAttribute="centerX" constant="70" id="Qcn-D9-VN3"/>
+                            <constraint firstItem="Jae-Tu-U0k" firstAttribute="bottom" secondItem="BDM-Nq-IkP" secondAttribute="bottom" constant="-20" id="WGk-Gi-bOD"/>
+                            <constraint firstItem="hhM-HN-asc" firstAttribute="centerX" secondItem="Kif-lt-E0N" secondAttribute="centerX" constant="-70" id="jN8-X4-06h"/>
+                            <constraint firstItem="hhM-HN-asc" firstAttribute="bottom" secondItem="BDM-Nq-IkP" secondAttribute="bottom" constant="-20" id="sp9-zi-l04"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jHy-bb-19g"/>
+                    <connections>
+                        <outlet property="cameraButton" destination="Jae-Tu-U0k" id="yDW-gN-Idt"/>
+                        <outlet property="imageView" destination="4SD-kH-Qsx" id="5xG-2p-SXu"/>
+                        <outlet property="photoLibraryButton" destination="hhM-HN-asc" id="Z9E-tC-9Ri"/>
+                        <outlet property="resultsLabel" destination="YQM-tE-YvA" id="uiJ-cQ-bTQ"/>
+                        <outlet property="resultsView" destination="vLm-SM-vfG" id="tTE-Is-3XD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="naJ-BG-2xG" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2290" y="-620"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera" width="60" height="60"/>
+        <image name="picture" width="60" height="60"/>
+        <image name="undraw_conversation_h12g.png" width="1401" height="872"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

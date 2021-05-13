@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74040DF22630AB150049F211 /* CamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74040DF12630AB150049F211 /* CamViewController.swift */; };
+		740D0DB7264C1CF90056060E /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D0DB6264C1CF90056060E /* LiveViewController.swift */; };
+		740D0DB9264C1EFD0056060E /* asl_conv_total.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 740D0DB8264C1EFD0056060E /* asl_conv_total.mlmodel */; };
+		748188F1263094A500AD9D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748188F0263094A500AD9D49 /* AppDelegate.swift */; };
+		748188F3263094A500AD9D49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748188F2263094A500AD9D49 /* SceneDelegate.swift */; };
+		748188F5263094A500AD9D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748188F4263094A500AD9D49 /* ViewController.swift */; };
+		748188F8263094A500AD9D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748188F6263094A500AD9D49 /* Main.storyboard */; };
+		748188FA263094A800AD9D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748188F9263094A800AD9D49 /* Assets.xcassets */; };
+		748188FD263094A800AD9D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748188FB263094A800AD9D49 /* LaunchScreen.storyboard */; };
+		748189092630A3E200AD9D49 /* undraw_conversation_h12g.png in Resources */ = {isa = PBXBuildFile; fileRef = 748189082630A3E200AD9D49 /* undraw_conversation_h12g.png */; };
+		CC368D1DDAC4B60927927100 /* Pods_SignLanguageTranslator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFADE7DEE0AAF191FA3B45E6 /* Pods_SignLanguageTranslator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47393535D61CCF2DB5089185 /* Pods-SignLanguageTranslator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignLanguageTranslator.release.xcconfig"; path = "Target Support Files/Pods-SignLanguageTranslator/Pods-SignLanguageTranslator.release.xcconfig"; sourceTree = "<group>"; };
+		74040DF12630AB150049F211 /* CamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamViewController.swift; sourceTree = "<group>"; };
+		740D0DB6264C1CF90056060E /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		740D0DB8264C1EFD0056060E /* asl_conv_total.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = asl_conv_total.mlmodel; sourceTree = "<group>"; };
+		748188ED263094A500AD9D49 /* Sign Language.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sign Language.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		748188F0263094A500AD9D49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		748188F2263094A500AD9D49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		748188F4263094A500AD9D49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		748188F7263094A500AD9D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		748188F9263094A800AD9D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		748188FC263094A800AD9D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		748188FE263094A800AD9D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748189082630A3E200AD9D49 /* undraw_conversation_h12g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undraw_conversation_h12g.png; sourceTree = "<group>"; };
+		9A9D19D95AAAE6CE385B9FF8 /* Pods-SignLanguageTranslator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignLanguageTranslator.debug.xcconfig"; path = "Target Support Files/Pods-SignLanguageTranslator/Pods-SignLanguageTranslator.debug.xcconfig"; sourceTree = "<group>"; };
+		DFADE7DEE0AAF191FA3B45E6 /* Pods_SignLanguageTranslator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignLanguageTranslator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		748188EA263094A500AD9D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC368D1DDAC4B60927927100 /* Pods_SignLanguageTranslator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740D0DBA264C20320056060E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		748188E4263094A500AD9D49 = {
+			isa = PBXGroup;
+			children = (
+				740D0DBA264C20320056060E /* Fonts */,
+				740D0DB8264C1EFD0056060E /* asl_conv_total.mlmodel */,
+				748189082630A3E200AD9D49 /* undraw_conversation_h12g.png */,
+				748188EF263094A500AD9D49 /* SignLanguageTranslator */,
+				748188EE263094A500AD9D49 /* Products */,
+				F9B9AA7B913E456DFA8053B8 /* Pods */,
+				DD9D5BC6D2A293B37907A3F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		748188EE263094A500AD9D49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				748188ED263094A500AD9D49 /* Sign Language.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		748188EF263094A500AD9D49 /* SignLanguageTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				748188F0263094A500AD9D49 /* AppDelegate.swift */,
+				748188F2263094A500AD9D49 /* SceneDelegate.swift */,
+				748188F4263094A500AD9D49 /* ViewController.swift */,
+				74040DF12630AB150049F211 /* CamViewController.swift */,
+				740D0DB6264C1CF90056060E /* LiveViewController.swift */,
+				748188F6263094A500AD9D49 /* Main.storyboard */,
+				748188F9263094A800AD9D49 /* Assets.xcassets */,
+				748188FB263094A800AD9D49 /* LaunchScreen.storyboard */,
+				748188FE263094A800AD9D49 /* Info.plist */,
+			);
+			path = SignLanguageTranslator;
+			sourceTree = "<group>";
+		};
+		DD9D5BC6D2A293B37907A3F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFADE7DEE0AAF191FA3B45E6 /* Pods_SignLanguageTranslator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9B9AA7B913E456DFA8053B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A9D19D95AAAE6CE385B9FF8 /* Pods-SignLanguageTranslator.debug.xcconfig */,
+				47393535D61CCF2DB5089185 /* Pods-SignLanguageTranslator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		748188EC263094A500AD9D49 /* Sign Language */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74818901263094A800AD9D49 /* Build configuration list for PBXNativeTarget "Sign Language" */;
+			buildPhases = (
+				F3F4DCA6971A9100B8D2AB27 /* [CP] Check Pods Manifest.lock */,
+				748188E9263094A500AD9D49 /* Sources */,
+				748188EA263094A500AD9D49 /* Frameworks */,
+				748188EB263094A500AD9D49 /* Resources */,
+				051D63564B749E23DE2C4E44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sign Language";
+			productName = SignLanguageTranslator;
+			productReference = 748188ED263094A500AD9D49 /* Sign Language.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		748188E5263094A500AD9D49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					748188EC263094A500AD9D49 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 748188E8263094A500AD9D49 /* Build configuration list for PBXProject "Sign Language" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 748188E4263094A500AD9D49;
+			productRefGroup = 748188EE263094A500AD9D49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				748188EC263094A500AD9D49 /* Sign Language */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		748188EB263094A500AD9D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748188FD263094A800AD9D49 /* LaunchScreen.storyboard in Resources */,
+				748188FA263094A800AD9D49 /* Assets.xcassets in Resources */,
+				748188F8263094A500AD9D49 /* Main.storyboard in Resources */,
+				748189092630A3E200AD9D49 /* undraw_conversation_h12g.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		051D63564B749E23DE2C4E44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignLanguageTranslator/Pods-SignLanguageTranslator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignLanguageTranslator/Pods-SignLanguageTranslator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignLanguageTranslator/Pods-SignLanguageTranslator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F4DCA6971A9100B8D2AB27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignLanguageTranslator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		748188E9263094A500AD9D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740D0DB9264C1EFD0056060E /* asl_conv_total.mlmodel in Sources */,
+				748188F5263094A500AD9D49 /* ViewController.swift in Sources */,
+				74040DF22630AB150049F211 /* CamViewController.swift in Sources */,
+				748188F1263094A500AD9D49 /* AppDelegate.swift in Sources */,
+				748188F3263094A500AD9D49 /* SceneDelegate.swift in Sources */,
+				740D0DB7264C1CF90056060E /* LiveViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		748188F6263094A500AD9D49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748188F7263094A500AD9D49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		748188FB263094A800AD9D49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748188FC263094A800AD9D49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		748188FF263094A800AD9D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74818900263094A800AD9D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74818902263094A800AD9D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A9D19D95AAAE6CE385B9FF8 /* Pods-SignLanguageTranslator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23MLSK3SZD;
+				INFOPLIST_FILE = SignLanguageTranslator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juandtorres.SignLanguageTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74818903263094A800AD9D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47393535D61CCF2DB5089185 /* Pods-SignLanguageTranslator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23MLSK3SZD;
+				INFOPLIST_FILE = SignLanguageTranslator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juandtorres.SignLanguageTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		748188E8263094A500AD9D49 /* Build configuration list for PBXProject "Sign Language" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748188FF263094A800AD9D49 /* Debug */,
+				74818900263094A800AD9D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74818901263094A800AD9D49 /* Build configuration list for PBXNativeTarget "Sign Language" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74818902263094A800AD9D49 /* Debug */,
+				74818903263094A800AD9D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 748188E5263094A500AD9D49 /* Project object */;
+}
